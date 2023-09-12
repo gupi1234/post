@@ -1,0 +1,135 @@
+a:hover {
+  color: white;
+}
+/* header */
+
+.border {
+  border: solid 3px black;
+}
+a.active {
+  color: blue;
+}
+.heading-1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 70px;
+  margin-left: 50px;
+  position: absolute;
+  bottom: 5%;
+  left: 3%;
+}
+
+span {
+  padding: 5px;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+#taitle-id {
+  background: linear-gradient(to top, rgba(80, 68, 18, 0) 10%, transparent),
+    url(freedom.png) left 10% bottom 20% / cover no-repeat border-box, #ff1b68;
+  /* background-image: url("freedom.png"); 
+  background-size: cover;
+  background-position: left 10% bottom 20%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;
+  /* background-attachment: fixed; */
+  /* background-image: linear-gradient(red, blue);
+  background-image: radial-gradient(
+    ellipse -corner at 20% 50%,
+    red,
+    blue,
+    green
+  /* ); */
+  width: auto;
+  height: 530px;
+
+  margin-top: 43px;
+  /* border: 5px dashed red; */
+  position: relative;
+}
+.plan-taitel {
+  color: #2ddf5c;
+  text-align: center;
+}
+.plan {
+  background: #d5ffdc;
+  text-align: center;
+  padding: 15px;
+  margin: 7px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+}
+.plan-price {
+  color: #858585;
+}
+.plan-taitels {
+  color: #0c4f1f;
+}
+.paln-heilight .plan-taitels {
+  color: white;
+}
+.paln-heilight .plan-price {
+  color: #0c4f1f;
+}
+.plan-heading {
+  background: white;
+  color: #19b84c;
+  padding: 7px;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 8px;
+}
+.paln-heilight {
+  background: #19b84c;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+  border-radius: 8px;
+}
+.plan-features {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.plan-features li {
+  margin: 8px 0;
+}
+
+/* key section */
+
+#key-features .plan-taitel {
+  color: white;
+  margin: 32px;
+}
+#key-features {
+  background-color: #ff1b68;
+  margin-top: 80px;
+  padding: 16px;
+}
+.key-feature-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.key-feature {
+  display: inline-block;
+  width: 30%;
+}
+.key-image {
+  background: #ffcede;
+  width: 128px;
+  height: 128px;
+  border: 2px solid #424242;
+  border-radius: 50%;
+  margin: auto;
+  padding: 30px;
+}
+.key-feature-paragraph {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  vertical-align: top;
+}
+/**footer **/
